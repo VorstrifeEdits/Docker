@@ -1,7 +1,5 @@
 FROM debian:stable-slim
 
-# COPY source destination
-COPY goserver /bin/goserver
+COPY Docker /bin/Docker
 
-CMD ["/bin/goserver"]
-
+CMD ["/bin/Docker"]
